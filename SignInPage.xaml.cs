@@ -9,7 +9,6 @@ namespace LearnEase
         {
             InitializeComponent();
         }
-
         private async void OnSignInClicked(object sender, EventArgs e)
         {
             // Perform sign-in logic here
