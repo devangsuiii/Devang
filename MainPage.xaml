@@ -42,6 +42,7 @@
                     <StackLayout x:Name="DynamicLabelsContainer" />             
 
             </VerticalStackLayout>
+            
         </ContentPage.Content>
    
 </ContentPage>
