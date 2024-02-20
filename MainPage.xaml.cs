@@ -2,7 +2,7 @@
 using System;
 using System.Threading.Tasks;
 
-namespace LearnEase // Remove the semicolon from the namespace declaration
+namespace LearnEase 
 {
     public partial class MainPage : ContentPage
     {
@@ -16,7 +16,7 @@ namespace LearnEase // Remove the semicolon from the namespace declaration
         }
         private async Task NavigateToSignInPage()
         {
-            // Navigate to the sign-in page
+            
             await Navigation.PushAsync(new SignInPage());
         }
 
