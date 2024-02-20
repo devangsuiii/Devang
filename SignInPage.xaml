@@ -4,11 +4,13 @@
              x:Class="LearnEase.SignInPage">
 
     <ContentPage.Content>
+
         <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
             <Label Text="Sign In" FontSize="24" HorizontalOptions="Center" Margin="0,0,0,20"/>
             <Entry x:Name="EmailEntry" Placeholder="Email" />
             <Entry x:Name="PasswordEntry" Placeholder="Password" IsPassword="True" />
             <Button Text="Sign In" Clicked="OnSignInClicked" />
         </StackLayout>
+
     </ContentPage.Content>
 </ContentPage>
