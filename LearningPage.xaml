@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LearnEase.LearningPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="More" Clicked="OnMoreClicked" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Welcome, Devang Panchal"
+                       HorizontalOptions="StartAndExpand"
+                       VerticalOptions="StartAndExpand"
+                       FontSize="16"
+                       FontAttributes="Bold"
+                       Margin="20,15,0,0" />
+
+                 <Image
+                        Source="firstimage.jpg"
+                        Aspect="AspectFill"          
+                        VerticalOptions="CenterAndExpand"
+                        Margin="0,-255,0,0" 
+                        HeightRequest="200"
+                        HorizontalOptions="Center" />
+
+                <Label Text="Devang, thanks for trying a free course" 
+                                                
+                       HorizontalOptions="Start" 
+                       VerticalOptions="FillAndExpand"
+                       FontSize="22"
+                       FontAttributes="Bold,Italic"
+                       Margin="20,-100,0,0" />
+
+                <Label Text="Now, unlock our best features with courses as low as $17.99 - limited time only"
+                       HorizontalOptions="StartAndExpand"
+                       VerticalOptions="Start"
+                       FontSize="16"
+                       FontAttributes="Bold"
+                       Margin="20,-220,0,0" />
+
+                <Label Text="Recommended for you"
+                       HorizontalOptions="Start"
+                       VerticalOptions="FillAndExpand"
+                       FontSize="22"
+                       FontAttributes="Bold,Bold,Bold"
+                       Margin="20,-150,0,0" />
+               
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+
+</ContentPage>
